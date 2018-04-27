@@ -1,0 +1,14 @@
+{
+  "name": "Color Changer",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Change element colors!",
+  "browser_action": {
+    "default_title": "Change element colors!",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "pallet.png"
+  },
+  "permissions": ["http://*/*", "https://*/*", "tabs"]
+}
