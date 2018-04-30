@@ -5,7 +5,7 @@ function gotMessage(request, sender, sendResponse) {
   if (request.allPage) {
     var elements = document.getElementsByTagName("p");
     for (var i = 0; i < elements.length; i++) {
-      elements[i].innerHTML = 'TIM!TIM!TIM!TIM!'
+      elements[i].innerHTML = 'CODY! CODY! CODY!'
     }
   }
   else //otherwise, we know that the start button was used pressed instead
